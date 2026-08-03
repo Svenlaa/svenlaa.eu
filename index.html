@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Svenlaa</title>
 <meta name="fediverse:creator" content="@Svenlaa@mas.to" />
-<meta property="og:image" content="https://svenlaa.com/og.jpg" />
+<meta property="og:image" content="https://svenlaa.eu/og.jpg" />
 <link rel="canonical" href="https://svenlaa.eu/" />
 <link rel="stylesheet" href="/style.css" />
 
 <h1>
     <a style="--color: var(--text); text-decoration: none" href="https://github.com/Svenlaa/svenlaa.com"
-        ><b style="font-weight: inherit">Svenlaa</b><span id="tld" style="font-size: 0.95em; font-weight: 600"></span></a
-    >
+        ><b style="font-weight: inherit">Svenlaa</b><span id="tld" style="font-size: 0.95em; font-weight: 600"></span
+    ></a>
 </h1>
 <p>
     Hello, I am <b style="font-weight: 500">Sven Lammertink</b> and I'm
@@ -28,18 +28,18 @@
     <li><a href="https://mas.to/@Svenlaa" rel="me" style="--color: var(--lavender)">Mastodon</a></li>
 
     <li style="margin-top: 0.5em"><a href="https://status.svenlaa.eu/">Status</a></li>
-    
+
     <li style="margin-top: 0.5em"><a href="/feed" style="--color: var(--red)">RSS</a></li>
 </ul>
 
 <script src="/scripts/roller.js"></script>
 <script>
-    const tld = document.getElementById("tld");
+    const tld = document.getElementById('tld');
     const { origin } = window.location;
-    const marker = "://svenlaa.";
+    const marker = '://svenlaa.';
 
     if (tld && origin.includes(marker)) {
-        const suffix = origin.slice(origin.indexOf(marker) + marker.length).split(":")[0];
+        const suffix = origin.slice(origin.indexOf(marker) + marker.length).split(':')[0];
 
         if (suffix) {
             tld.textContent = `.${suffix}`;
