@@ -1,6 +1,6 @@
 # Loggo (an instance of [Login](https://todepond.com/lab/login)) source code
 
-this is the source code for [Loggo](https://svenlaa.com/playground/loggo/)
+this is the source code for [Loggo](https://svenlaa.eu/playground/loggo/)
 
 -   client side stuff in `index.html`
 -   custom styles in `style.css`
